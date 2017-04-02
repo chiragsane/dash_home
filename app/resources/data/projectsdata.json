@@ -1,0 +1,100 @@
+[{
+    "project_name": "Sapphire",
+    "project_metrics": {
+        "release_completion": "93",
+        "sprint_velocity": "33",
+        "defect_ratio": "12",
+        "code_coverage": "52",
+        "work_completion": "30",
+        "release_stability": "Warning"
+    },
+    "project_health": "Smooth"
+}, {
+    "project_name": "CampusNext",
+    "project_metrics": {
+        "release_completion": "87",
+        "sprint_velocity": "45",
+        "defect_ratio": "07",
+        "code_coverage": "14",
+        "work_completion": "15",
+        "release_stability": "At Risk"
+    },
+    "project_health": "Warning"
+}, {
+    "project_name": "Digicopy",
+    "project_metrics": {
+        "release_completion": "33",
+        "sprint_velocity": "12",
+        "defect_ratio": "02",
+        "code_coverage": "11",
+        "work_completion": "55",
+        "release_stability": "Smooth"
+    },
+    "project_health": "Warning"
+},{
+    "project_name": "Sapphire",
+    "project_metrics": {
+        "release_completion": "93",
+        "sprint_velocity": "33",
+        "defect_ratio": "13",
+        "code_coverage": "52",
+        "work_completion": "30",
+        "release_stability": "At Risk"
+    },
+    "project_health": "Smooth"
+}, {
+    "project_name": "HD Power",
+    "project_metrics": {
+        "release_completion": "77",
+        "sprint_velocity": "11",
+        "defect_ratio": "10",
+        "code_coverage": "45",
+        "work_completion": "12",
+        "release_stability": "Smooth"
+    },
+    "project_health": "At Risk"
+}, {
+    "project_name": "GNP",
+    "project_metrics": {
+        "release_completion": "32",
+        "sprint_velocity": "33",
+        "defect_ratio": "08",
+        "code_coverage": "77",
+        "work_completion": "10",
+        "release_stability": "Warning"
+    },
+    "project_health": "Smooth"
+},{
+    "project_name": "HAVOC",
+    "project_metrics": {
+        "release_completion": "87",
+        "sprint_velocity": "52",
+        "defect_ratio": "10",
+        "code_coverage": "66",
+        "work_completion": "15",
+        "release_stability": "At Risk"
+    },
+    "project_health": "Smooth"
+}, {
+    "project_name": "Project",
+    "project_metrics": {
+        "release_completion": "78",
+        "sprint_velocity": "48",
+        "defect_ratio": "12",
+        "code_coverage": "54",
+        "work_completion": "70",
+        "release_stability": "Warning"
+    },
+    "project_health": "At Risk"
+}, {
+    "project_name": "Project",
+    "project_metrics": {
+        "release_completion": "68",
+        "sprint_velocity": "54",
+        "defect_ratio": "16",
+        "code_coverage": "58",
+        "work_completion": "16",
+        "release_stability": "At Risk"
+    },
+    "project_health": "Smooth"
+}]

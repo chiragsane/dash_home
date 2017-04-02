@@ -1,0 +1,80 @@
+.statsBlock {
+	animation: statsBlock-in 0.5s 1.5s forwards;
+	display: flex;
+	height: 50px;
+	margin-bottom: 20px;
+	transform: translateY(-200px);
+}
+.statsCard {
+	align-items: center;
+	background: rgba(0,0,0,0);
+	box-shadow: 0 12px 7px -7px #CCC;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	display: flex;
+	font-size: 18px;
+	justify-content: space-around;
+	margin-right: 15px;
+	transform: translateY(-5px);
+	transition: all 0.5s ease;
+	width: 50%;
+}
+.statsCard.shake {
+	animation: shake 1s cubic-bezier(.36,.07,.19,.97) both infinite;
+	transform: translate3d(0, -5px, 0);
+}
+.statsCard:last-child {
+	margin-right: 0px;
+}
+.svg-icon {
+	width: 40px;
+}
+/*** COLORS ***/
+
+.build {
+	background-color: #3498db;
+}
+.run {
+	background-color: #2980b9;
+}
+.smooth {
+	background-color: #27ae60;
+}
+.warning {
+	background-color: #e67e22;
+}
+.atRisk {
+	background-color: #e74c3c;
+}
+
+.faded {
+	box-shadow: 0 7px 7px -7px black;
+	opacity: 0.75;
+	color: black !important;
+	transform: translateY(0px);
+}
+
+@keyframes statsBlock-in {
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(0px, -5px, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(1px, -5px, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-2px, -5px, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(2px, -5px, 0);
+  }
+}

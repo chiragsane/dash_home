@@ -1,0 +1,47 @@
+<table class="table" id="projectsTable">
+	<thead>
+		<tr>
+			<td colspan="2">Project Name</td>
+			<td>Release
+				<div class="subthead">Stability</div>
+			</td>
+			<td>Velocity
+				<div class="subthead">Story Points</div>
+			</td>
+			<td>Defect Ratio
+				<div class="subthead">In %</div>
+			</td>
+			<td>Code
+				<div class="subthead">Coverage %</div>
+			</td>
+			<td>Release
+				<div class="subthead">Completion %</div>
+			</td>
+			<td>Work
+				<div class="subthead">Completed %</div>
+			</td>
+			<td>Health</td>
+			<td></td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr *ngFor="let project of projects">
+			<td class="status" style="width: 50px !important"><img class="svg-icon" src="app/resources/images/build.png"></td>
+			<td>{{project.project_name}}</td>
+			<td class="status" id="releaseStability">{{project.project_metrics.release_stability}}</td>
+			<td class="value">{{project.project_metrics.sprint_velocity}}%</td>
+			<td class="value">{{project.project_metrics.defect_ratio}}</td>
+			<td class="value">{{project.project_metrics.code_coverage}}%</td>
+			<td class="value">{{project.project_metrics.release_completion}}%</td>
+			<td class="value">{{project.project_metrics.work_completion}}%</td>
+			<td class="status" id="projectHealth">{{project.project_health}}</td>
+			<!--<td><i class="fa fa-list-alt" aria-hidden="true"></i><i class="fa fa-download" aria-hidden="true"></i></td>-->
+			<td><a><i aria-hidden="true" class="fa fa-list-alt fa-lg"></i></a>&nbsp;&nbsp;&nbsp;<i aria-hidden="true" class="fa fa-external-link fa-lg"></i></td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td colspan="9"></td>
+		</tr>
+	</tfoot>
+</table>
